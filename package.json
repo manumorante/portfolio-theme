@@ -1,10 +1,10 @@
 {
-  "name": "@estadologico/theme",
+  "name": "@estadologico/portfolio-theme",
   "version": "0.1.0",
   "description": "Tailwind CSS Theme - Clean, just the variables, no HTML, ...",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manumorante/theme.git"
+    "url": "git+https://github.com/manumorante/portfolio-theme.git"
   },
   "license": "ISC",
   "author": "Manu Morante",
