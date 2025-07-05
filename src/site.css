@@ -1,0 +1,6 @@
+/**
+  This TailwindCSS import is for the base, utilities, and preflight
+  to build this website and display the theme. It is not for external use.
+  */
+@import "tailwindcss";
+@import "./theme/all.css";

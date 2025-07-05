@@ -1,0 +1,34 @@
+{
+  "name": "@estadologico/theme",
+  "version": "0.1.0",
+  "description": "Tailwind CSS Theme - Clean, just the variables, no HTML, ...",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manumorante/theme.git"
+  },
+  "license": "ISC",
+  "author": "Manu Morante",
+  "keywords": [
+    "tailwindcss",
+    "theme",
+    "style-guide",
+    "ui"
+  ],
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/site.css -o ./dist/styles.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/site.css -o ./dist/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "npm pkg fix",
+    "publish": "npm publish --access public"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.13"
+  }
+}
