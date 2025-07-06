@@ -1,6 +1,6 @@
 {
   "name": "@estadologico/portfolio-theme",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tailwind CSS Theme - Clean, just the variables, no HTML, ...",
   "repository": {
     "type": "git",

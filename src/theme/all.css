@@ -1,2 +1,6 @@
 @import "./spacing.css";
 @import "./colors";
+
+@theme {
+  --aspect-og: 1200/628;
+}
